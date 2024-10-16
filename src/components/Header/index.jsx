@@ -1,4 +1,4 @@
-import LivenLogo from '../../assets/livenLogo.webp'
+import LivenLogo from '../../assets/images/livenLogo.webp'
 import { links } from '../../config'
 import './index.scss'
 
