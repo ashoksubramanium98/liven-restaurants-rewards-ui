@@ -1,0 +1,29 @@
+{
+  "rewardListing": [
+    {
+      "buyPrice": "$30",
+      "bonusAmount": "$10",
+      "isAppExclusive": true
+    },
+    {
+      "buyPrice": "$50",
+      "bonusAmount": "$5",
+      "isAppExclusive": false
+    },
+    {
+      "buyPrice": "$100",
+      "bonusAmount": "$15",
+      "isAppExclusive": false
+    },
+    {
+      "buyPrice": "$250",
+      "bonusAmount": "$50",
+      "isAppExclusive": false
+    },
+    {
+      "buyPrice": "$500",
+      "bonusAmount": "$125",
+      "isAppExclusive": false
+    }
+  ]
+}
