@@ -1,10 +1,16 @@
 import bonusIcon from '../../assets/icons/bonus.png';
 import livenLogoWhite from '../../assets/images/livenLogoWhite.jpeg'
+import { links } from '../../config'
 import './index.scss';
 
 const RewardCard = ({ buyPrice, bonusAmount, isAppExclusive }) => {
+
+  const handleRedirectToRewardsDetail = () => {
+    window.open(links.logo)
+  }
+
   return (
-    <div className="rewardCard">
+    <div className="rewardCard" onClick={handleRedirectToRewardsDetail}>
       {isAppExclusive && <div className="rewardCard__appExclusive">
         <div className="rewardCard__appExclusive__img__container">
           <img className="rewardCard__appExclusive__img" src={livenLogoWhite} alt="App Exclusive" />
