@@ -17,6 +17,31 @@
       text-align: center;
     }
   }
+  &__purchaseGift {
+    display: flex;
+    width: 80%;
+    margin: 10px auto 30px auto;
+    &__container {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 8px;
+      padding: 6px;
+      background: #dddada;
+      color: #666;
+      font-weight: 600;
+      border-radius: 25px;
+      width: 50%;
+      margin: 0 auto;
+    }
+    &__img {
+      width: 100%;
+      height: 100%;
+      &__container {
+        height: 16px;
+      }
+    }
+  }
   &__listing-container {
     display: flex;
     flex-direction: column;

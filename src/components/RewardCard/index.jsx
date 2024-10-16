@@ -1,5 +1,5 @@
-import bonusIcon from '../../assets/bonus.png';
-import livenLogoWhite from '../../assets/livenLogoWhite.jpeg'
+import bonusIcon from '../../assets/icons/bonus.png';
+import livenLogoWhite from '../../assets/images/livenLogoWhite.jpeg'
 import './index.scss';
 
 const RewardCard = ({ buyPrice, bonusAmount, isAppExclusive }) => {
@@ -18,7 +18,7 @@ const RewardCard = ({ buyPrice, bonusAmount, isAppExclusive }) => {
       <div>
         <img src={bonusIcon} alt="Bonus" />
       </div>
-      <div className="rewardCard__price">
+      <div className="rewardCard__bonus">
         <div className="rewardCard__price__label"> Bonus </div>
         <div className="rewardCard__price__value"> {bonusAmount} </div>
       </div>

@@ -1,5 +1,6 @@
 .rewardCard {
-  display: flex;
+  display: grid;
+  grid-template-columns: 46% 8% 46%;
   align-items: center;
   justify-content: space-between;
   border: 1px solid #ccc;
@@ -10,7 +11,7 @@
   &__appExclusive {
     position: absolute;
     top: -15px;
-    left: 32%;
+    left: 31%;
     display: flex;
     align-items: center;
     gap: 5px;
@@ -37,5 +38,11 @@
       font-size: 24px;
       font-weight: 700;
     }
+  }
+  &__bonus {
+    display: flex;
+    flex-direction: column;
+    color: rgb(55, 200, 186);
+    text-align: right;
   }
 }
